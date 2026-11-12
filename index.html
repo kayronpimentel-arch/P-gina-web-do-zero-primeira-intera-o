@@ -4,43 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>loja de acessórios para carros</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        header {
-            background-color: #1a23a1;
-            color: #FFFFFF;
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 16px;
-            border: 5px solid aliceblue;
-        }
+      
         
-        main {
-            background-color: #FFFFFF;
-            color: #000000;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 16px;
-        }
-        article {
-            display: flex;
-            align-items: flex-start; /* Alinha a imagem no topo do texto */
-            margin-bottom: 20px;
-        }
-        img {
-            background-color: #000000;
-            color: #ffffff;
-            text-align: center;
-            padding: 8px;
-            height: 80px;
-            width: 80px;
-            margin-right: 16px; /* Adiciona espaço entre a imagem e o texto */
-            object-fit: cover; /* Evita que a imagem fique distorcida */
-            flex-shrink: 0; /* Impede que a imagem encolha */
-        }
-        .artigo-autor {
-            font-weight: bold;
-        }
         button {
             cursor: pointer;
             font-size: 16px; /* Aumenta o tamanho da fonte e dos ícones */
@@ -90,23 +57,9 @@
         </article>
     </main>
 
-    <script>
-        const botoes = document.querySelectorAll("button");
+<script src="script.js"></script>
+<script>
+<body> 
 
-        botoes.forEach(function(botao) {
-            let curtiu = false;
-            botao.addEventListener("click", function botaoClicado() {
-                console.log("fui clicado");
-                let texto = botao.querySelector("span");
-                if (curtiu === false) {
-                    texto.textContent++;
-                    curtiu = true;
-                } else {
-                    texto.textContent--;
-                    curtiu = false;
-                }
-            });
-        });
-    </script>
-</body>
+
 </html>
