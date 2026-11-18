@@ -1,0 +1,26 @@
+/* Diminui e padroniza o tamanho das fotos */
+img {
+    width: 250px;       /* Largura da imagem (altere se quiser maior ou menor) */
+    height: auto;       /* Mantém a proporção original sem distorcer */
+    border-radius: 8px; /* Deixa as bordas levemente arredondadas */
+}
+
+/* Estilo dos botões */
+button {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: #bacaf5;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    margin-right: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
